@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		E362CF5D2391974C00F6D830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E362CF5C2391974C00F6D830 /* AppDelegate.swift */; };
 		E362CF5F2391974C00F6D830 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E362CF5E2391974C00F6D830 /* SceneDelegate.swift */; };
-		E362CF612391974C00F6D830 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E362CF602391974C00F6D830 /* ViewController.swift */; };
+		E362CF612391974C00F6D830 /* PeopleListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E362CF602391974C00F6D830 /* PeopleListTableViewController.swift */; };
 		E362CF642391974C00F6D830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E362CF622391974C00F6D830 /* Main.storyboard */; };
 		E362CF662391975000F6D830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E362CF652391975000F6D830 /* Assets.xcassets */; };
 		E362CF692391975000F6D830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E362CF672391975000F6D830 /* LaunchScreen.storyboard */; };
+		E362CF712391976400F6D830 /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = E362CF702391976400F6D830 /* Arrays.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E362CF592391974C00F6D830 /* People List Table View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "People List Table View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E362CF5C2391974C00F6D830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E362CF5E2391974C00F6D830 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E362CF602391974C00F6D830 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E362CF602391974C00F6D830 /* PeopleListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListTableViewController.swift; sourceTree = "<group>"; };
 		E362CF632391974C00F6D830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E362CF652391975000F6D830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E362CF682391975000F6D830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E362CF6A2391975000F6D830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E362CF702391976400F6D830 /* Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				E362CF5C2391974C00F6D830 /* AppDelegate.swift */,
 				E362CF5E2391974C00F6D830 /* SceneDelegate.swift */,
-				E362CF602391974C00F6D830 /* ViewController.swift */,
+				E362CF602391974C00F6D830 /* PeopleListTableViewController.swift */,
+				E362CF702391976400F6D830 /* Arrays.swift */,
 				E362CF622391974C00F6D830 /* Main.storyboard */,
 				E362CF652391975000F6D830 /* Assets.xcassets */,
 				E362CF672391975000F6D830 /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E362CF612391974C00F6D830 /* ViewController.swift in Sources */,
+				E362CF612391974C00F6D830 /* PeopleListTableViewController.swift in Sources */,
+				E362CF712391976400F6D830 /* Arrays.swift in Sources */,
 				E362CF5D2391974C00F6D830 /* AppDelegate.swift in Sources */,
 				E362CF5F2391974C00F6D830 /* SceneDelegate.swift in Sources */,
 			);
